@@ -1,0 +1,28 @@
+# Node modules
+node_modules
+package-lock.json
+
+# Ignore migrations
+/database/migrations/*.js
+/database/migrations/*.json
+/database/migrations/*.ts
+
+# Ignore env and editor
+.env.testing
+.editorconfig
+# Ignore Vow
+/test/**/*.spec.js
+/test/**/*.spec.ts
+
+# Adonis directory for storing tmp files
+tmp
+
+# Environment variables, never commit this file
+.env
+
+# The development sqlite file
+database/*.sqlite
+
+# VSCode & Webstorm history directories
+.history
+.idea
